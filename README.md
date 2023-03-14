@@ -15,3 +15,11 @@
 4. Verify that the image was pushed successfully.
 
     ibmcloud cr images
+
+5. Apply the deployment
+
+    kubectl apply -f deployment.yml
+
+6. Open a new terminal and view your app
+
+    kubectl port-forward deployment.apps/guestbook 3000:3000
