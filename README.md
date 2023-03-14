@@ -1,1 +1,1 @@
-# ibm-guestbook
+# coding-project-template
